@@ -1,5 +1,5 @@
-CXX = icpc
-CXXFLAGS = -O3 -I -Wall -Wshadow -Wstrict-prototypes -Wwrite-strings
+CXX = g++
+CXXFLAGS = -O3 -I -Wall -Wshadow -Wwrite-strings
 LIBS = #-L/home/rrig/Install/fftw3a-threaded/lib -lfftw3_threads -lfftw3 -lpthread
 EXECUTABLE=./a.out
 
